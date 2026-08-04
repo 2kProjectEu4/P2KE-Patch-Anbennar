@@ -1,0 +1,13 @@
+guiTypes = {
+	windowType = {
+		name = "ashhana_blood_curse_bar"
+		size = { x = 334 y = 23 }
+		moveable = 0
+
+		iconType = {
+			name = "government_power_bar"
+			spriteType = "GFX_ashhana_blood_curse_bar"
+			position = { x = 25 y = 39 } # 13 91 from the top left of ashhana_blood_curse_bg_window
+		}
+	}
+}
