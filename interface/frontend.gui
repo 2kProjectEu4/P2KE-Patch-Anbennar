@@ -949,7 +949,7 @@ guiTypes = {
 				name ="bottom"
 				backGround=""
 				position = { x=0 y =0}
-				show_position = { x=-456 y =-207 }
+				show_position = { x=-456 y =-307 }
 				hide_position = { x=-456 y =24}
 				animation_type = "decelerated"
 				animation_time = 300
@@ -3594,7 +3594,7 @@ guiTypes = {
 	positionType = {
 		# Should be relative to lower center of screen
 		name = "shield_position"
-		position = { x = -15 y = -324 }
+		position = { x = -15 y = -424 }
 	}
 
 	positionType = {
