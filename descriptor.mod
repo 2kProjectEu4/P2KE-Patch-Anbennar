@@ -9,3 +9,4 @@ dependencies={
 }
 name="P2KE Patch - Anbennar"
 supported_version="v1.37.*.*"
+remote_file_id="3777997797"

@@ -228,7 +228,7 @@ guiTypes = {
         instantTextBoxType = {
             name = "dlc_title"
             position = { x=-362 y=395 }		#anbennar
-            font = "vic_22"
+            font = "vic_18"
             borderSize = { x=5 y=5 }
             text = "STATISTICS"
             maxWidth = 259	#anbennar
@@ -239,7 +239,7 @@ guiTypes = {
         instantTextBoxType = {
             name = "dlc_desc"
             position = { x=-362 y=480 }		#anbennar
-            font = "standard_font"
+            font = "coyote_12b"
             maxWidth = 259	#anbennar
             maxHeight = 399
         }
@@ -247,7 +247,7 @@ guiTypes = {
 		instantTextBoxType = {
             name = "dlc_flavor"
             position = { x=-362 y=563 }		#anbennar
-            font = "standard_font"
+            font = "coyote_12b"
             maxWidth = 259		#anbennar
             maxHeight = 399
         }
@@ -255,7 +255,7 @@ guiTypes = {
 		instantTextBoxType = {
             name = "dlc_recommended"
             position = { x=371 y=621 }
-            font = "standard_font"
+            font = "coyote_12b"
             borderSize = { x=5 y=5 }
             text = "RECOMMENDED_DLCS"
             maxWidth = 363
