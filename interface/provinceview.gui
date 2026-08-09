@@ -857,7 +857,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "diggy_cost_text"
-				position = { x= 109 y = 10 }
+				position = { x= 122 y = 9 }
 				borderSize = {x = 2 y = 2}
 				font = "vic_18"
 				format = centre
@@ -884,7 +884,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "diggy_time_text"
-				position = { x= 109 y = 39 }
+				position = { x= 122 y = 38 }
 				borderSize = {x = 2 y = 2}
 				font = "vic_18"
 				format = centre

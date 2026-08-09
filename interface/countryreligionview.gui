@@ -745,7 +745,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "possible_incidents_label"
 				position = { x = 20 y = 313 }
-				font = "coyote_12b"
+				font = "vic_16"
 				borderSize = {x = 0 y = 0}
 				text = "POSSIBLE_INCIDENTS"
 				maxWidth = 140
@@ -766,7 +766,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "active_incidents_label"
 				position = { x = 20 y = 342 }
-				font = "coyote_12b"
+				font = "vic_16"
 				borderSize = {x = 0 y = 0}
 				text = "ACTIVE_INCIDENTS"
 				maxWidth = 140
@@ -787,7 +787,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "past_incidents_label"
 				position = { x = 20 y = 371 }
-				font = "coyote_12b"
+				font = "vic_16"
 				borderSize = {x = 0 y = 0}
 				text = "PAST_INCIDENTS"
 				maxWidth = 140
@@ -1007,10 +1007,10 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "holy_site_name_1"
 				position = { x = 78 y = 325 }
-				font = "vic_22"
+				font = "vic_16"
 				borderSize = {x = 0 y = 0}
 				text = "Alexanderia"
-				maxWidth = 153
+				maxWidth = 100
 				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
@@ -1028,10 +1028,10 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "holy_site_name_2"
 				position = { x = 78 y = 361 }
-				font = "vic_22"
+				font = "vic_16"
 				borderSize = {x = 0 y = 0}
 				text = "Alexanderia"
-				maxWidth = 153
+				maxWidth = 100
 				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
@@ -1041,18 +1041,18 @@ guiTypes = {
 			{
 				name ="holy_site_icon_3"
 				spriteType = "GFX_icon_religion_small"
-				position = { x = 227 y = 283 }
+				position = { x = 177 y = 283 }
 				frame = 14
 				#scale = 0.75
 			}
 
 			instantTextBoxType = {
 				name = "holy_site_name_3"
-				position = { x = 270 y = 289 }
-				font = "vic_22"
+				position = { x = 220 y = 289 }
+				font = "vic_16"
 				borderSize = {x = 0 y = 0}
 				text = "Alexanderia"
-				maxWidth = 153
+				maxWidth = 100
 				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
@@ -1062,18 +1062,18 @@ guiTypes = {
 			{
 				name ="holy_site_icon_4"
 				spriteType = "GFX_icon_religion_small"
-				position = { x = 227 y = 319 }
+				position = { x = 177 y = 319 }
 				frame = 14
 				#scale = 0.75
 			}
 
 			instantTextBoxType = {
 				name = "holy_site_name_4"
-				position = { x = 270 y = 325 }
-				font = "vic_22"
+				position = { x = 220 y = 325 }
+				font = "vic_16"
 				borderSize = {x = 0 y = 0}
 				text = "Alexanderia"
-				maxWidth = 153
+				maxWidth = 100
 				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
@@ -1083,18 +1083,18 @@ guiTypes = {
 			{
 				name ="holy_site_icon_5"
 				spriteType = "GFX_icon_religion_small"
-				position = { x = 227 y = 355 }
+				position = { x = 177 y = 355 }
 				frame = 14
 				#scale = 0.75
 			}
 
 			instantTextBoxType = {
 				name = "holy_site_name_5"
-				position = { x = 270 y = 361 }
-				font = "vic_22"
+				position = { x = 220 y = 361 }
+				font = "vic_16"
 				borderSize = {x = 0 y = 0}
 				text = "Alexanderia"
-				maxWidth = 153
+				maxWidth = 100
 				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
@@ -1105,18 +1105,18 @@ guiTypes = {
 			{
 				name ="holy_site_icon_6"
 				spriteType = "GFX_icon_religion_small"
-				position = { x = 345 y = 322 }
+				position = { x = 325 y = 322 }
 				#frame = 15
 #				scale = 0.75
 			}
 			
 			instantTextBoxType = {
 				name = "holy_site_name_6"
-				position = { x = 381 y = 328 }
-				font = "vic_22"
+				position = { x = 361 y = 325 }
+				font = "vic_16"
 				borderSize = {x = 0 y = 0}
 				text = "Alexanderia"	
-				maxWidth = 113
+				maxWidth = 100
 				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left
@@ -1126,18 +1126,18 @@ guiTypes = {
 			{
 				name ="holy_site_icon_7"
 				spriteType = "GFX_icon_religion_small"
-				position = { x = 345 y = 358 }
+				position = { x = 325 y = 358 }
 				#frame = 15
 #				scale = 0.75
 			}
 			
 			instantTextBoxType = {
 				name = "holy_site_name_7"
-				position = { x = 381 y = 364 }
-				font = "vic_22"
+				position = { x = 361 y = 361 }
+				font = "vic_16"
 				borderSize = {x = 0 y = 0}
 				text = "Alexanderia"	
-				maxWidth = 113
+				maxWidth = 100
 				maxHeight = 29
 				Orientation = "UPPER_LEFT"
 				format = left

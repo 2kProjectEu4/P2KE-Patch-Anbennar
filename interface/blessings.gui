@@ -216,7 +216,7 @@ guiTypes = {
 		instantTextBoxType= {
 			position = { x = 255 y = 44}
 			name = "control"
-			font = "vic_18"
+			font = "vic_16"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 234
 			maxHeight = 24
@@ -227,7 +227,7 @@ guiTypes = {
 		instantTextBoxType= {
 			position = { x = 255 y = 68}
 			name = "religion"
-			font = "vic_18"
+			font = "vic_16"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 234
 			maxHeight = 24
@@ -325,11 +325,11 @@ guiTypes = {
 		}
 		
 		instantTextBoxType = {
-			position = { x = 37 y = 8}
+			position = { x = 30 y = 9}
 			name = "title"
-			font = "vic_22s"
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 437
+			maxWidth = 444
 			maxHeight = 24
 			text = "Da Blessing"	
 			format = left

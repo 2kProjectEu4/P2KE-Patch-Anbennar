@@ -31,7 +31,7 @@ guiTypes = {
 		{
 			name ="event_picture"
 			spriteType = "GFX_event_event_test"
-			position = { x = 36 y = 96 }
+			position = { x = 33 y = 96 }
 			Orientation = "UPPER_LEFT"
 		}
 		

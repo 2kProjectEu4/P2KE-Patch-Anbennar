@@ -558,23 +558,22 @@ bitmapfonts = {
 
 	# Global text colorings
 	textcolors = {			#"Used" as in "used in the English localization"
-		M = { 35 206 255 }	#Marine, used for Shogunate and tutorials
-		W = { 255 255 255 }	#White, default text color in the game
-		B = { 0 0 255 }		#Blue, unused
-		G = { 0 255 0 }		#Green, used for positive effects in tooltips
-		R = { 255 50 50 }	#Red, used for negative effects in tooltips
-		b = { 0 0 0 }		#Black, unused
-		g = { 176 176 176 }	#Grey, used when something is not possible ("greyed out")
-		Y = { 255 189 0 }	#Yellow, used for tooltips for a neutral effect
-		T = { 0 255 239 }	#Turquoise, unused
-		O = { 255 160 0 }	#Orange, used for anything related to branching missions
-		l = { 154 193 75 }	#Lime, Multiplayer
-		P = { 112 41 99 }	#Purple, used for Byzantium
-		V = { 250 182 255 }	#Violet, used for debug text
+		M = { 35 206 255 }	# Light blue
+		W = { 255 255 255 }	# White
+		B = { 0 0 255 }		# Blue
+		G = { 0 255 0 }		# Green
+		R = { 255 50 50 }	# Red
+		b = { 0 0 0 }		# Black
+		g = { 176 176 176 } # Gray
+		Y = { 255 189 0 }	# Yellow
+		T = { 0 255 239 }	# Teal
+		O = { 255 160 0 }	# Orange
+		l = { 154 193 75 }	# Lime/Mustard
 		J = { 0 168 107 }	#Jade, used for Mercs without Army Professionalism cost
-		C = { 242 244 247 } #c Coyote White
+		V = { 250 182 255 }	#Violet, used for debug text #1.36
 		
 		#Anbennar
+		P = { 104 75 148 }	# Purple
 		H = { 255 243 156 }	# Pale yellow
 		d = { 101 127 153 }	# Damerian blue
 		D = { 138 172 211 }	# Damerian blue (lighter)
@@ -586,7 +585,7 @@ bitmapfonts = {
 		y = { 219 203 71 }	# Dark yellow
 		r = { 190 10 10 }	# Dark red
 		v = { 44 171 50 }	# Green
-		q = { 137 60 152 }	# Darker pink/Magenta
+		C = { 137 60 152 }	# Darker pink/Magenta
 		c = { 181 77 218 }	# Dark pink
 		o = { 208 102 32 }	# Darker orange
 		E = { 94 87 219 }	# Indigo/Blue going purple
@@ -798,6 +797,21 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "coyote_12b"	# ages_desc
+		path = "gfx/fonts/cg_14b" 
+		color = 0xfff2f4f7
+
+		textcolors = {
+			G = { 90 198 63 }
+			W = { 255 255 255 }
+			b = { 255 255 255 }
+			B = { 255 255 255 }
+			R = { 226 68 63 }
+			Y = { 252 218 80 } #cc Y = { 0 0 0 }
+		}
+	}
+
+	bitmapfont = {
+		name = "vic_16"
 		path = "gfx/fonts/cg_14b" 
 		color = 0xfff2f4f7
 

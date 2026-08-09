@@ -656,7 +656,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "manpower_value"
-			position = { x = 592 y = 316 }
+			position = { x = 593 y = 316 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 5 y = 5}
@@ -669,7 +669,8 @@ guiTypes = {
 		iconType = {
 			name ="manpower_icon"
 			spriteType = "GFX_icon_manpower"
-			position = { x = 583 y = 316 }
+			position = { x = 580 y = 316 }
+			scale = 0.9
 		}
 
 		iconType =

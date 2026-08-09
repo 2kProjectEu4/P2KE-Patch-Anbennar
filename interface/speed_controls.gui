@@ -10,7 +10,7 @@ guiTypes = {
 		{
 			name ="icon_date_bg"
 			spriteType = "GFX_date_bg"
-			position = { x= -375 y = -1 }
+			position = { x= -395 y = -1 }
 			Orientation = "UPPER_RIGHT"
 		}
 		
@@ -60,12 +60,12 @@ guiTypes = {
 
 		instantTextBoxType = { 
 			name = "DateText"
-			position = { x = -336 y = 16 }
+			position = { x = -350 y = 16 }
 			textureFile = ""
 			font = "vic_36"
 			borderSize = {x = 0 y = 5}
 			text = "NO DATE!!!"	
-			maxWidth = 228
+			maxWidth = 238
 			maxHeight = 47	
 			format = centre
 			Orientation = "UPPER_RIGHT"
@@ -109,7 +109,7 @@ guiTypes = {
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
-			position = { x = -361 y = 16 }
+			position = { x = -381 y = 16 }
 			Orientation = "UPPER_RIGHT"
 		}
 		
@@ -119,7 +119,7 @@ guiTypes = {
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
-			position = { x = -361 y = 50 }
+			position = { x = -381 y = 50 }
 			Orientation = "UPPER_RIGHT"
 		}
 
