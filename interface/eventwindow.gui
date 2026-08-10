@@ -26,14 +26,7 @@ guiTypes = {
 			position = { x= -52 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
-		
-		iconType =
-		{
-			name ="event_picture"
-			spriteType = "GFX_event_event_test"
-			position = { x = 33 y = 96 }
-			Orientation = "UPPER_LEFT"
-		}
+
 		
 		iconType =
 		{
@@ -62,29 +55,8 @@ guiTypes = {
 			maxHeight = 38
 			format = centre
 		}
-		guiButtonType = {
-			name = "event_goto_province"
-			position = { x = 0 y = 17 }
-			quadTextureSprite ="GFX_event_goto_province"
-			buttonFont = "Main_14_black"
-			shortcut = "f"
-			clicksound = click
-		}
-		
-		instantTextBoxType = {
-			name = "Description"
-			position = { x = 37 y = 269 } # Was 276
-			textureFile = ""
-			font = "vic_18_black"
-			borderSize = {x = 0 y = 0}
-			text = "Long text here!"	
-			maxWidth = 614
-			maxHeight = 154
-			format = left
-			#fixedsize = yes
-		}
-		
-		listboxType = 
+
+		listboxType =
 		{
 			name = "event_option_listbox"
 			position = { x = 0 y = 0 }
@@ -94,7 +66,38 @@ guiTypes = {
 			spacing = 1
 			scrollbartype = "standardlistbox_slider"
 			borderSize = { x = 0 y = 0 }
-		}		
+		}
+		
+		instantTextBoxType = {
+			name = "Description"
+			position = { x = 37 y = 269 }
+			textureFile = ""
+			font = "vic_18_black_event"
+			borderSize = {x = 0 y = 0}
+			text = "Long text here!"	
+			maxWidth = 614
+			maxHeight = 118
+			format = left
+			#fixedsize = yes
+		}
+
+		iconType =
+		{
+			name ="event_picture"
+			spriteType = "GFX_event_event_test"
+			position = { x = 33 y = 94 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "event_goto_province"
+			position = { x = 0 y = 17 }
+			quadTextureSprite ="GFX_event_goto_province"
+			buttonFont = "Main_14_black"
+			shortcut = "f"
+			clicksound = click
+		}
+
 	}
 	
 	### Listbox entry for events
