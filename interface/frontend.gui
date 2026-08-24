@@ -1319,9 +1319,9 @@ guiTypes = {
 
 				listboxType = {
 					name ="bookmarks_list"
-					position = { x = 19 y = 124 }
+					position = { x = 19 y = 109 }
 					backGround=""
-					size = { x=425 y = 920 }
+					size = { x=425 y = 960 }
 					Orientation = "UPPER_LEFT"
 					horizontal = 0
 					spacing = 0
@@ -2885,7 +2885,7 @@ guiTypes = {
 		name = "bookmark_entry"
 		backGround=""
 		position = { x=0 y=0 }
-		size = { x=387 y= 146 }	#anbennar
+		size = { x=400 y=192 }	#anbennar
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -2898,13 +2898,12 @@ guiTypes = {
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
-			position = { x=17 y =0}
+			position = { x= 17 y = 0 }
 		}
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 17 y = 56 }	#anbennar
-
+			position = { x = 17 y = 83 }	#anbennar
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "FE_BOOKMARK_TITLE"
@@ -2918,7 +2917,6 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "date"
 			position = { x = -363 y = 27 }	#anbennar
-
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
 			text = "FE_BOOKMARK_DATE"

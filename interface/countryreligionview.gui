@@ -59,6 +59,7 @@ guiTypes = {
 			maxWidth = 120
 			maxHeight = 39
 			format = left
+			fixedsize = yes
 		}
 
 		instantTextBoxType = {
@@ -5090,8 +5091,8 @@ guiTypes = {
 	windowType = {
 		name = "countryreligionview_aspectitem_dwarven_pantheon"
 		backGround =""
-		position = { x=12 y=-36 }	
-		size = { x=61 y=56 }
+		position = { x=0 y=0 }	
+		size = { x=540 y=65 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
@@ -5101,16 +5102,17 @@ guiTypes = {
 		{
 			name ="aspect_icon"
 			spriteType = "GFX_hindu_deities_strip"
-			position = { x= 15 y = -17 }	#anbennar, x was 52
+			position = { x= 50 y = -10 }	#anbennar, x was 52
+			scale = 0.9
 		}
 		
 		instantTextBoxType = {
 			name = "aspect_name"
-			position = { x= -83 y = 7 }		#anbennar, x was -51
+			position = { x= -55 y = 0 }		#anbennar, x was -51
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectName"	
-			maxWidth = 119					#anbennar, x was 123
+			maxWidth = 120					#anbennar, x was 123
 			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
@@ -5118,11 +5120,11 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "aspect_effect"
-			position = { x = 86 y = -2 }	#anbennar, x was 119
+			position = { x = 120 y = 0 }	#anbennar, x was 119
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "AspectEffect"	
-			maxWidth = 339					#anbennar, x was 249
+			maxWidth = 270					#anbennar, x was 249
 			maxHeight = 29
 			Orientation = "UPPER_LEFT"
 			format = left
@@ -5130,7 +5132,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "pick_aspect"
-			position = { x=397 y = 1}		#anbennar, x was 364
+			position = { x=390 y = 0}		#anbennar, x was 364
 			quadTextureSprite ="GFX_standard_button_71"
 			buttonText = "SELECT"
 			buttonFont = "vic_18"
