@@ -291,9 +291,9 @@ guiTypes = {
 		listboxType =
 		{
 			name ="objectives"
-			position = { x = 90 y = 453 }
+			position = { x = 90 y = 445 }
 			backGround=""
-			size = { x=852 y =600}
+			size = { x=852 y =590}
 			Orientation = "UPPER_LEFT"
 			spacing = 3
 			scrollbartype = "standardlistbox_slider"
@@ -305,7 +305,7 @@ guiTypes = {
 		listboxType =
 		{
 			name ="abilities"
-			position = { x = 195 y = 377 }
+			position = { x = 175 y = 377 }
 			backGround=""
 			size = { x=660 y =72}
 			Orientation = "UPPER_LEFT"
@@ -315,24 +315,14 @@ guiTypes = {
 			horizontal = 1
 			#alwaystransparent = yes
 		}
-
-
-
-
 	}
-
-
-
-
-
 
 	###### OBJECTIVES ENTRY
 	windowType = {
 		name = "age_objectives_entry"
 		backGround=""
 		position = { x=0 y=0 }
-		#c size = { x=720 y= 65 }
-		size = { x=840 y= 80 }
+		size = { x=860 y= 84 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -342,25 +332,22 @@ guiTypes = {
 		iconType =
 		{
 			name ="_entry_bg"
-			spriteType = "GFX_p2kuie_empty_image"
-			position = { x=-3 y = -5 }
+			spriteType = "GFX_p2kuie_age_objective"
+			position = { x=0 y = 0 }
 			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
 		}
 
 		iconType =
 		{
 			name ="icon"
 			spriteType = "GFX_idea_unknown"
-			#c position = { x= 8ยง y = 5 }
-			position = { x= 11 y = 9 } #was 11 3
+			position = { x= 14 y = 11 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "name"
-			#c position = { x = 77 y = 3 }
-			position = { x = 102 y = 3 }
+			position = { x = 105 y = 5 }
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = "name"
@@ -373,8 +360,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "desc"
-			#c position = { x = 77 y = 24 }
-			position = { x = 101 y = 31 }
+			position = { x = 104 y = 33 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "desc"
@@ -391,8 +377,7 @@ guiTypes = {
 		{
 			name ="progress"
 			spriteType = "achievement_progress"
-			#c position = { x= 563 y = 41 }
-			position = { x= 720 y = 48 }
+			position = { x= 723 y = 50 }
 			Orientation = "UPPER_LEFT"
 
 		}
@@ -401,8 +386,7 @@ guiTypes = {
 		{
 			name ="progress_overlay"
 			spriteType = "GFX_achievement_progress_frame"
-			#c position = { x= 545 y = 35 }
-			position = { x= 703 y = 43 }
+			position = { x= 706 y = 45 }
 			Orientation = "UPPER_LEFT"
 
 		}
@@ -410,8 +394,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "progress_text"
-			#c position = { x = 565 y = 8 }
-			position = { x = 721 y = 15 }
+			position = { x = 724 y = 17 }
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = "7/14"
@@ -428,7 +411,7 @@ guiTypes = {
 	windowType = {
 		name = "age_ability_entry"
 		backGround=""
-		position = { x=0 y=-51 }
+		position = { x=0 y=0 }
 		size = { x=60 y= 60 }
 		moveable = 0
 		dontRender = ""
@@ -441,14 +424,14 @@ guiTypes = {
 		{
 			name ="icon666"
 			spriteType = "GFX_age_unlocked"
-			position = { x= -1 y = 14 }
+			position = { x= 19 y = 14 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType =
 		{
 			name ="icon"
 			spriteType = "GFX_age_unlocked"
-			position = { x= -1 y = 14 }
+			position = { x= 19 y = 14 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -457,7 +440,7 @@ guiTypes = {
 		{
 			name ="can_unlock"
 			spriteType = "GFX_age_can_unlock"
-			position = { x= -1 y = 14 }
+			position = { x= 19 y = 14 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -466,7 +449,7 @@ guiTypes = {
 		{
 			name ="cannot_unlock"
 			spriteType = "GFX_age_cannot_unlock"
-			position = { x= -1 y = 14 }
+			position = { x= 19 y = 14 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -475,7 +458,7 @@ guiTypes = {
 		{
 			name ="button"
 			quadTextureSprite= "GFX_age_unlocked"
-			position = { x= -1 y = 14 }
+			position = { x= 19 y = 14 }
 			Orientation = "UPPER_LEFT"
 		}
 	}

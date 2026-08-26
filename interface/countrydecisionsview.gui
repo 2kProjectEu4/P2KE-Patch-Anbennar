@@ -546,7 +546,7 @@ guiTypes = {
 				min_height = 1048
 				spriteType = "inventions_menu_background_strip"
 			}
-			position = { x = -8 y = 85 }
+			position = { x = -8 y = 255 }
 			Orientation = "UPPER_LEFT"
 			scripted = yes
 		}

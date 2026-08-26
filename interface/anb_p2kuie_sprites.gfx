@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_p2kuie_mana_bg"
+		texturefile = "gfx//interface//p2kuie_sprites//p2kuie_mana_bg.dds"
+	}
+
+}

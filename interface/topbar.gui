@@ -727,14 +727,10 @@ guiTypes = {
 
 	############### DATE PANEL ###################
 
-
-
-
-
 		windowType = {
 			name = "pause_window"
 			backGround=""
-			position = { x=-256 y= 111 } #was -243 111
+			position = { x=-256 y= 131 } #was -243 111
 			size = { x=487 y=84 }
 			dontRender = ""
 			horizontalBorder= ""
@@ -8115,7 +8111,7 @@ guiTypes = {
 						}
 						instantTextBoxType = {
 							name = "magic_menu_mana_generation_textbox"
-							position = { x = 20 y = 116 }
+							position = { x = 24 y = 116 }
 							font = "vic_16"
 							maxWidth = 133
 							maxHeight = 34
@@ -8135,7 +8131,7 @@ guiTypes = {
 						instantTextBoxType = {
 							name = "magic_menu_mana_regen_rate"
 							position = { x = 145 y = 116 }
-							font = "vic_18"
+							font = "vic_16"
 							maxWidth = 58
 							maxHeight = 34
 							text = ""
@@ -8337,7 +8333,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "magic_menu_mana_regen_rate"
 						position = { x = 145 y = 116 }
-						font = "vic_18"
+						font = "vic_16"
 						maxWidth = 58
 						maxHeight = 34
 						text = ""
