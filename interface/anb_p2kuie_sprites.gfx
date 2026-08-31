@@ -5,4 +5,9 @@ spriteTypes = {
 		texturefile = "gfx//interface//p2kuie_sprites//p2kuie_mana_bg.dds"
 	}
 
+	spriteType = {
+		name = "GFX_p2kuie_progress_bar_mana_frame"
+		texturefile = "gfx//interface//p2kuie_sprites//progress_bar_mana_frame.dds"
+	}
+
 }

@@ -2939,7 +2939,7 @@ guiTypes = {
 				}
 
 				guiButtonType = {
-					name = "aPUI_gor_vazumbrog_vault_button_dummy"
+					name = "aPUI_gor_vazumbrog_vault_button"
 					quadTextureSprite = "GFX_vault_icon"
 					position = { x = 29 y = 270 }
 					scripted = yes
@@ -9524,9 +9524,10 @@ guiTypes = {
 			borderSize = {x = 3 y = 3}
 			text = "txtstuff"
 			maxWidth = 349
-			maxHeight = 72
+			maxHeight = 24
 			format = center
 			alwaysTransparent = yes
+			fixedsize = yes
 		}
 
 	}

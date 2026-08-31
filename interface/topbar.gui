@@ -724,6 +724,35 @@ guiTypes = {
 			fixedsize = yes
 		}
 
+	############### Mana PANEL ###################
+	windowType = {
+		name = "p2kuie_mana_window"
+		backGround=""
+		position = { x= -440 y= -74 }
+		moveable = 0
+		Orientation = "LOWER_RIGHT"
+
+		guiButtonType = {
+			name = "p2kuie_mana_value_btn"
+			spriteType = "GFX_p2kuie_mana_bg"
+			position = { x = -50 y = 0 }
+			Orientation = "UPPER_LEFT"
+			no_clicksound = yes
+			scripted = yes
+		}
+
+		instantTextBoxType = {
+			name = "p2kuie_mana_value"
+			position = { x = -50 y = 49 }
+			font = "vic_18"
+			borderSize = { x = 5 y = 5 }
+			text = ""
+			maxWidth = 109
+			maxHeight = 34
+			format = center
+			scripted = yes
+		}
+	}
 
 	############### DATE PANEL ###################
 
@@ -7800,7 +7829,7 @@ guiTypes = {
 				position = { x = 34 y = 93 }
 				quadTextureSprite = "GFX_tabs_122x42_strip"
 				text = "magicui_open_home"
-				font = "vic_18"
+				font = "vic_16"
 				format = center
 				Orientation = "UPPER_LEFT"
 				clicksound = back_click
@@ -7812,7 +7841,7 @@ guiTypes = {
 				position = { x = 182 y = 93 }
 				quadTextureSprite = "GFX_tabs_122x42_strip"
 				text = magic_advancement_heading
-				font = "vic_18"
+				font = "vic_16"
 				format = center
 				Orientation = "UPPER_LEFT"
 				clicksound = back_click
@@ -7824,7 +7853,7 @@ guiTypes = {
 				position = { x = 329 y = 93 }
 				quadTextureSprite = "GFX_tabs_122x42_strip"
 				text = magic_spellbook_heading
-				font = "vic_18"
+				font = "vic_16"
 				format = center
 				Orientation = "UPPER_LEFT"
 				clicksound = back_click
@@ -7837,7 +7866,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_tabs_122x42_strip"
 				Orientation = "UPPER_LEFT"
 				text = magic_patron_heading
-				font = "vic_18"
+				font = "vic_16"
 				format = center
 				clicksound = back_click
 				# rotation = 3.1415
@@ -9940,7 +9969,7 @@ guiTypes = {
 					spriteType = "button_type_1"
 					position = { x = 453 y = 248 }
 					text = magic_menu_text_study_magic
-					font = "vic_18"
+					font = "vic_16"
 					format = center
 					scripted = yes
 				}
@@ -9949,17 +9978,27 @@ guiTypes = {
 					spriteType = "button_type_1"
 					position = { x = 453 y = 290 }
 					text = magic_menu_text_abort_advancement
-					font = "vic_18"
+					font = "vic_16"
 					format = center
 					scripted = yes
 				}
+
 				iconType = {
 					name = "magic_advancement_progress_bar"
 					spriteType = "GFX_magic_progressbar_x477_y22"
-					position = { x = 57 y = 344 }
+					position = { x = 57 y = 343 }
 					Orientation = "UPPER_LEFT"
 					scripted = yes
 				}
+
+				iconType = {
+					name = "magic_advancement_progress_bar_p2kuie"
+					spriteType = "GFX_p2kuie_progress_bar_mana_frame"
+					position = { x = 56 y = 344 }
+					Orientation = "UPPER_LEFT"
+					alwaystransparent = yes
+				}
+
 				# guiButtonType = {
 				# 	name = "debug_experience_increase_button"
 				# 	spriteType = "GFX_arrow_right_big"

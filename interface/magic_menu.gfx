@@ -295,7 +295,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx//interface//custom_gui//magic//progbar1_290x22.dds"
 		textureFile2 = "gfx//interface//custom_gui//magic//progbar2_290x22.dds"
-		size = { x = 351 y = 27 }
+		size = { x = 341 y = 26 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 	spriteType = {
