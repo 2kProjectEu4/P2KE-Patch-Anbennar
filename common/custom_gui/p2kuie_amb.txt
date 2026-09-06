@@ -35,5 +35,5 @@ custom_button = {
 		}
 		custom_tooltip = open_spellbook_menu_tt
 	}
-	tooltip = magic_menu_mana_values
+	tooltip = p2kuie_magic_menu_mana_values
 }

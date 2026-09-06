@@ -2819,7 +2819,7 @@ guiTypes = {
 				}
 
 				guiButtonType = { #Gene Pillar Exploration
-					name = "aPUI_gene_pillar_interaction_button_dummy"
+					name = "aPUI_gene_pillar_interaction_button"
 					quadTextureSprite = "GFX_gene_pillar_button_strip"
 					position = { x = 27 y = 50 }
 					scripted = yes
@@ -2846,19 +2846,19 @@ guiTypes = {
 				}
 
 				guiButtonType = { #Zena Button
-					name = "aPUI_zena_medakas_majestic_menagerie_button_dummy"
+					name = "aPUI_zena_medakas_majestic_menagerie_button"
 					quadTextureSprite = "GFX_zena_majestic_menagerie_button"
 					position = { x = 27 y = 267 }
 					scripted = yes
 				}
 				guiButtonType = { #Mangrove Biological Infrastructure
-					name = "mangrove_bio_infra_button_dummy"
+					name = "mangrove_bio_infra_button"
 					position = { x = 27 y = 104 }
 					quadTextureSprite = "mangrove_bio_infra_button"
 					scripted = yes
 				}
 				guiButtonType = { #Kobold Citadel
-					name = "open_menu_kobold_citadel_dummy"
+					name = "open_menu_kobold_citadel"
 					position = { x = 27 y = 104 }
 					quadTextureSprite = "GFX_citadel_menu_button"
 					scripted = yes
@@ -2872,7 +2872,7 @@ guiTypes = {
 					scripted = yes
 				}
 				guiButtonType = { #Transmutative Path
-					name = "transmutative_path_infuse_chi_button_dummy"
+					name = "transmutative_path_infuse_chi_button"
 					position = { x = 27 y = 159 }
 					quadTextureSprite = "chi_wellspring_button"
 					scripted = yes
@@ -4532,12 +4532,12 @@ guiTypes = {
 						name = aPUI_template_border
 						quadTextureSprite = "GFX_aPUI_shadowbox_tile"
 						position = {
-							x = 33
+							x = 30
 							y = 240
 						}
 						size = {
-							x = 250
-							y = 180
+							x = 320
+							y = 270
 						}
 						no_clicksound = yes
 						alwaystransparent = yes
@@ -4555,8 +4555,8 @@ guiTypes = {
 						}
 						font = "vic_18"
 						text = "Template text"
-						maxWidth = 303
-						maxHeight = 242
+						maxWidth = 320
+						maxHeight = 270
 						#scripted = yes
 					}
 				}
@@ -4643,12 +4643,12 @@ guiTypes = {
 						name = aPUI_transmutative_path_border
 						quadTextureSprite = "GFX_aPUI_shadowbox_tile"
 						position = {
-							x = 33
+							x = 30
 							y = 240
 						}
 						size = {
-							x = 250
-							y = 180
+							x = 320
+							y = 270
 						}
 						no_clicksound = yes
 						alwaystransparent = yes
@@ -4665,8 +4665,8 @@ guiTypes = {
 							y = 6
 						}
 						font = "vic_18"
-						maxWidth = 303
-						maxHeight = 242
+						maxWidth = 320
+						maxHeight = 270
 						scripted = yes
 					}
 				}
@@ -4793,12 +4793,12 @@ guiTypes = {
 						name = aPUI_gor_vazumbrog_vault_border
 						quadTextureSprite = "GFX_aPUI_shadowbox_tile"
 						position = {
-							x = 33
+							x = 30
 							y = 240
 						}
 						size = {
-							x = 250
-							y = 180
+							x = 320
+							y = 270
 						}
 						no_clicksound = yes
 						alwaystransparent = yes
@@ -4816,8 +4816,8 @@ guiTypes = {
 							y = 6
 						}
 						font = "vic_18"
-						maxWidth = 303
-						maxHeight = 242
+						maxWidth = 320
+						maxHeight = 270
 						scripted = yes
 					}
 				}
@@ -5233,12 +5233,12 @@ guiTypes = {
 						name = aPUI_mangrove_bio_infra_border
 						quadTextureSprite = "GFX_aPUI_shadowbox_tile"
 						position = {
-							x = 33
+							x = 30
 							y = 240
 						}
 						size = {
-							x = 250
-							y = 180
+							x = 320
+							y = 270
 						}
 						no_clicksound = yes
 						alwaystransparent = yes
@@ -5256,8 +5256,8 @@ guiTypes = {
 						}
 						font = "vic_18"
 						text = ""
-						maxWidth = 303
-						maxHeight = 242
+						maxWidth = 320
+						maxHeight = 270
 						scripted = yes
 					}
 				}

@@ -14,4 +14,5 @@
  encounter_overlay_background:0 "£expedition_encounter_bg£\n\n\n\n\n\n\n\n                                                               [Root.ExpeditionClearedFloorSmall][Root.ExpeditionCurrentFloorSmall]"
 #P2KUIE
  p2kuie_mana_value:0 "§M[Root.currentMana.GetValue]§"
- p2kuie_mana_percent_value:0 "§Y My current mana is = [Root.current_mana.GetValue] value and [Root.currentMana.GetValue]§"
+ p2kuie_mana_percent_value:0 "Mana Regenaration: §Y[Root.mages_mana_regen_val.GetValue]§"
+ p2kuie_magic_menu_mana_values:0 "Current Mana: §M[Root.currentMana.GetValue]§!\nMana Capacity: §Y[Root.get_mages_mana_capacity_val]§!\nMana Regenaration: §Y[Root.mages_mana_regen_val.GetValue]§!"

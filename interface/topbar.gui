@@ -737,7 +737,7 @@ guiTypes = {
 			spriteType = "GFX_p2kuie_mana_bg"
 			position = { x = -50 y = 0 }
 			Orientation = "UPPER_LEFT"
-			no_clicksound = yes
+			clicksound = click
 			scripted = yes
 		}
 
