@@ -43,8 +43,8 @@ guiTypes = {
 		{
 			name ="factions_listbox"
 			backGround = ""
-			position = { x=18 y=16 }	
-			size = { x=648 y=834 }
+			position = { x=18 y=0 }	
+			size = { x=648 y=950 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 2.5
@@ -57,7 +57,7 @@ guiTypes = {
 		
 		guiButtonType = {
 				name = "close_button"
-				position = { x=-75 y =552}
+				position = { x=-75 y =680}
 				quadTextureSprite ="button_type_1"	
 				tooltip = ""
 				tooltipText =""
@@ -76,7 +76,7 @@ guiTypes = {
 		{
 			name ="faction_boost_scripted1"
 			quadTextureSprite= "GFX_standard_button_105"
-			position = { x = 192 y = -363 }
+			position = { x = 192 y = -120 }
 			Orientation = "UPPER_LEFT"
 			buttonText = "BOOST"
 			buttonFont = "vic_18"
@@ -87,7 +87,7 @@ guiTypes = {
 		{
 			name ="faction_boost_scripted2"
 			quadTextureSprite= "GFX_standard_button_105"
-			position = { x = 192 y = -161 }
+			position = { x = 192 y = 185 }
 			Orientation = "UPPER_LEFT"
 			buttonText = "BOOST"
 			buttonFont = "vic_18"
@@ -98,7 +98,7 @@ guiTypes = {
 		{
 			name ="faction_boost_scripted3"
 			quadTextureSprite= "GFX_standard_button_105"
-			position = { x = 192 y = 41 }
+			position = { x = 192 y = 480 }
 			Orientation = "UPPER_LEFT"
 			buttonText = "BOOST"
 			buttonFont = "vic_18"
@@ -176,7 +176,7 @@ guiTypes = {
 			name ="factions_listbox"
 			backGround = ""
 			position = { x=18 y=16 }	
-			size = { x=648 y=834 }
+			size = { x=648 y=950 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 2.5
@@ -308,7 +308,7 @@ guiTypes = {
 			name ="factions_listbox"
 			backGround = ""
 			position = { x=18 y=16 }	
-			size = { x=648 y=834 }
+			size = { x=648 y=950 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 2.5
@@ -397,7 +397,7 @@ guiTypes = {
 		name = "faction_entry"
 		backGround=""
 		position = { x=0 y=0 }	
-		size = { x=240 y=271 }
+		size = { x=240 y=300 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -405,33 +405,33 @@ guiTypes = {
 		fullScreen = no	
 	
 		iconType = 
-			{
-				name ="faction_icon"
-				spriteType = "GFX_faction_enuchs"
-				position = { x= -112 y = -4 }
-				Orientation = "CENTER"
-			}
+		{
+			name ="faction_icon"
+			spriteType = "GFX_faction_enuchs"
+			position = { x= -100 y = 35 }
+			Orientation = "CENTER"
+		}
 			
-			iconType = 
-			{
-				name ="faction_bg"
-				spriteType = "GFX_faction_bg_temples"
-				position = { x= 48 y = -63 }
-				Orientation = "CENTER"
-			}		
-			
-			iconType = 
-			{
-				name ="faction_circle"
-				spriteType = "GFX_faction_circle_bg"
-				position = { x= 421 y = 12 }
-				Orientation = "CENTER"
-				scale = 1.1
-			}
+		iconType = 
+		{
+			name ="faction_bg"
+			spriteType = "GFX_faction_bg_temples"
+			position = { x= 48 y = -38 }
+			Orientation = "CENTER"
+		}		
+		
+		iconType = 
+		{
+			name ="faction_circle"
+			spriteType = "GFX_faction_circle_bg"
+			position = { x= 421 y = 12 }
+			Orientation = "CENTER"
+			scale = 1.1
+		}
 			
 		instantTextBoxType = {
 			name = "faction_value"
-			position = { x= 555 y = 178 }
+			position = { x= 555 y = 193 }
 			font = "vic_22"
 			borderSize = {x = 1 y = 1}
 			text = "11"	
@@ -440,16 +440,16 @@ guiTypes = {
 			format = centre
 		}
 		iconType = 
-			{
-				name ="faction_arrow"
-				spriteType = "GFX_faction_arrow"
-				position = { x= 504 y = 43 }
-				Orientation = "CENTER"
-				scale = 1.4
-			}
+		{
+			name ="faction_arrow"
+			spriteType = "GFX_faction_arrow"
+			position = { x= 504 y = 43 }
+			Orientation = "CENTER"
+			scale = 1.4
+		}
 		instantTextBoxType = {
 			name = "faction_label"
-			position = { x= 203 y = 75 }
+			position = { x= 203 y = 115 }
 			font = "vic_22"
 			borderSize = {x = 1 y = 1}
 			text = "The Test Faction"	
@@ -459,7 +459,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "faction_info"
-			position = { x= 180 y = 115 }
+			position = { x= 180 y = 160 }
 			font = "vic_18"
 			borderSize = {x = 1 y = 1}
 			text = "The Test Faction likes testing and also testing, this is a sentence that is going to go on for a while in order to test The Test Faction."	

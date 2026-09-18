@@ -238,7 +238,7 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 5 y = 5}	
 				text = "FGDSFHDF"	
-				maxWidth = 153
+				maxWidth = 185
 				maxHeight = 39
 				format = right
 			}

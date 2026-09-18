@@ -57,7 +57,7 @@ guiTypes = {
 	windowType = {
 		name ="waroverview_shieldItem"
 		backGround=""
-		position = { x= 0 y = 0 }	
+		position = { x= 0 y = -5 }	
 		size = { x = 72 y = 48 }
 		moveable = 0
 		dontRender = ""
