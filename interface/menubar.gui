@@ -1415,9 +1415,9 @@ guiTypes = {
 		{
 			name = "WarOverviewButtonWindow"
 			backGround=""
-			position = { x = -1008 y = -78 }
-			show_position = { x = -1008 y = -210 } # Actually not showing/hiding, just moving to be on top of log. Like a subwindow, but done in a stupid way :)
-			hide_position = { x = -1008 y = -78 }
+			position = { x = -1060 y = -75 }
+			show_position = { x = -1060 y = -205 } # Actually not showing/hiding, just moving to be on top of log. Like a subwindow, but done in a stupid way :)
+			hide_position = { x = -1060 y = -75 }
 			animation_type = "decelerated"
 			animation_time = 1000
 			size = { x= 360 y = 48 }

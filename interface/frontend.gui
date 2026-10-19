@@ -3031,7 +3031,7 @@ guiTypes = {
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			maxWidth = 159
+			maxWidth = 200
 			maxHeight = 24
 			fixedsize = yes
 			#alwaystransparent = yes
@@ -3120,7 +3120,7 @@ guiTypes = {
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			maxWidth = 187
+			maxWidth = 200
 			maxHeight = 24
 			fixedsize = yes
 

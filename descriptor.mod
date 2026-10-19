@@ -6,6 +6,7 @@ tags={
 dependencies={
 	"Proper 2K UI Enhanced"
 	"Anbennar: A Fantasy Total Conversion"
+	"Anbennar Chinese ver"
 }
 name="P2KE Patch - Anbennar"
 supported_version="v1.37.*.*"
